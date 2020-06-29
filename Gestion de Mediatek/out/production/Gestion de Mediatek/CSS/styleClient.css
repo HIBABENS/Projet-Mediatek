@@ -1,0 +1,21 @@
+
+/*.bt:hover{
+-fx-background-color : #9C9AA6;
+}*/
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: black;
+}
+
+.bt {
+  transition-duration: 0.4s;
+}
+
+.bt:hover {
+  background-color: #4CAF50; /* Green */
+  color: black;
+}

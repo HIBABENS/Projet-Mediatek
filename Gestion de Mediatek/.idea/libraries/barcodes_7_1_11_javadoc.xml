@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="barcodes-7.1.11-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../lib/barcodes-7.1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/forms-7.1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/io-7.1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/kernel-7.1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/layout-7.1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../lib/barcodes-7.1.11-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/forms-7.1.11-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/io-7.1.11-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/kernel-7.1.11-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/layout-7.1.11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../lib/barcodes-7.1.11-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/forms-7.1.11-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/io-7.1.11-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/kernel-7.1.11-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/layout-7.1.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

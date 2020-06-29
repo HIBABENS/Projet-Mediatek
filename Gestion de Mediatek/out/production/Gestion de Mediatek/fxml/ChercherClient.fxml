@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="600.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CilentController">
+   <children>
+      <Label layoutX="123.0" layoutY="31.0" text="Chercher un client" textFill="#247090">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="141.0" text="Veuillez saisir le code du client rechercher :" textFill="#0aa3da">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtIdClt" layoutX="96.0" layoutY="225.0" prefHeight="25.0" prefWidth="297.0" />
+      <Button fx:id="btChercher" layoutX="454.0" layoutY="220.0" mnemonicParsing="false" onAction="#Chercher" prefHeight="36.0" prefWidth="84.0" text="Chercher" />
+      <Label layoutX="50.0" layoutY="299.0" text="Nom du client cherché : ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="336.0" text="Prenom du client cherché : ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="376.0" text="Adresse du client cherché : ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="nomCh" layoutX="400.0" layoutY="297.0" text="Nom" textFill="#c2b9b9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="prenomCh" layoutX="398.0" layoutY="340.0" text="Prenom" textFill="#c2b9b9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="adresseCh" layoutX="400.0" layoutY="381.0" text="Adresse" textFill="#c2b9b9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="AnnulerCh" layoutX="475.0" layoutY="432.0" mnemonicParsing="false" onAction="#Annuler" prefHeight="36.0" prefWidth="84.0" text="Annuler" />
+   </children>
+</Pane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="472.0" prefWidth="433.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controllers.CilentController">
+   <children>
+      <Label layoutX="66.0" layoutY="46.0" text="Modifier Un Client" textFill="#37a9c2">
+         <font>
+            <Font name="Arial Italic" size="38.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtModifAdresse" layoutX="83.0" layoutY="251.0" prefHeight="117.0" prefWidth="277.0" promptText="Adresse" />
+      <TextField fx:id="txtModifNom" layoutX="82.0" layoutY="145.0" prefHeight="25.0" prefWidth="277.0" promptText="Nom" />
+      <TextField fx:id="txtModifPrenom" layoutX="83.0" layoutY="203.0" prefHeight="25.0" prefWidth="277.0" promptText="Prenom" />
+      <Button fx:id="ModifClt" layoutX="251.0" layoutY="396.0" mnemonicParsing="false" onAction="#ModifClt" prefHeight="25.0" prefWidth="102.0" style="-fx-background-color: #37a9c2;" text="Modifier" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Annuler" layoutX="121.0" layoutY="396.0" mnemonicParsing="false" onAction="#Annuler" prefHeight="36.0" prefWidth="83.0" style="-fx-background-color: #37a9c2;" text="Annuler" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

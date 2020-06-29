@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="878.0"
+      style="-fx-background-color: #EBE8F9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Controllers.InventairePrdController">
+   <children>
+      <ImageView fitHeight="677.0" fitWidth="989.0" layoutX="-1.0" layoutY="-6.0" opacity="0.32" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/checkStk2.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tableViewInv" layoutX="89.0" layoutY="132.0" prefHeight="408.0" prefWidth="686.0">
+        <columns>
+          <TableColumn fx:id="code" prefWidth="110.0" text="Code_Produit" />
+          <TableColumn fx:id="libelle" prefWidth="141.0" text="Libelle_Produit" />
+            <TableColumn fx:id="prix" prefWidth="141.0" text="Prix_Produit" />
+            <TableColumn fx:id="qte" prefWidth="152.0" text="Quantité disponible" />
+            <TableColumn fx:id="etat" prefWidth="166.0" text="Demmande" />
+        </columns>
+      </TableView>
+      <Button fx:id="Retour" layoutX="628.0" layoutY="551.0" mnemonicParsing="false" onAction="#Retour" prefHeight="37.0" prefWidth="94.0" style="-fx-background-color: #5a6360;" text="Retour" textFill="WHITE" />
+      <TextField fx:id="filterField" layoutX="334.0" layoutY="89.0" prefHeight="25.0" prefWidth="225.0" />
+      <Label layoutX="222.0" layoutY="12.0" prefHeight="51.0" prefWidth="439.0" text="L'inventaire des produits" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
